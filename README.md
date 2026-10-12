@@ -29,5 +29,6 @@ Also: being a dad, mowing the lawn, and learning to laugh when a monitoring depl
 ### Let's connect
 
 - **Site:** [caskeycoding.com](https://caskeycoding.com)
+- **Also:** [ericcaskey.com](https://ericcaskey.com) · [specself.ai](https://specself.ai)
 - **LinkedIn:** [linkedin.com/in/ericrcaskey](https://www.linkedin.com/in/ericrcaskey)
 - **Email:** eric@caskeycoding.com

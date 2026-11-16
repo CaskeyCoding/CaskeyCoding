@@ -1,34 +1,50 @@
-# Hey, I'm Eric Caskey @CaskeyCoding
+# Eric Caskey
 
-**Senior Software Development Engineer** at Amazon | 15+ years building planet-scale automation, workflow orchestration, and AI-powered developer platforms.
+**AI reliability engineer and open-source builder.**
 
----
+I build the checks around AI-assisted software delivery: guardrails that block unsafe output, evaluation gates that fail a build on regression, and written specs that tell an agent what done means.
 
-### What I'm working on
+These are personal projects, built on my own time. The method is in the repositories below.
 
-- Platforms that maintain **3M+ active infrastructure monitors** and power **500K+ daily automated actions** across global services
-- Pioneering **spec-driven development** with AI agents at enterprise scale — turning documentation into living, agent-readable engineering assets
-- Building **[caskeycoding.com](https://caskeycoding.com)** in public — React, Python Lambdas, multi-agent AI orchestration with Bedrock, AWS CDK
-- Training for the **2026 TCS NYC Marathon** (and building an AI coach to help)
+## Open source
 
-### What I write about
+### [Ballast](https://github.com/CaskeyCoding/ballast)
 
-- [Spec-Driven Development and the Folder Architecture That Makes It Work](https://caskeycoding.com/blog/spec-driven-development-and-the-folder-architecture-that-makes-it-work)
-- [Book Review: Enterprise Vibe Coding Playbook](https://caskeycoding.com/blog/book-review-enterprise-vibe-coding-playbook-building-real-software-with-ai)
+A self-healing RAG system, a guardrails gateway, and an evaluation gate over one shared core. Ballast retrieves and grades its evidence, generates a cited answer, critiques that answer for groundedness, and declines when the evidence does not support one.
 
-### What I care about
+### [Loop Harness](https://github.com/CaskeyCoding/loop-harness)
 
-Distributed systems. Safety guardrails and automated rollback. Making AI work at enterprise scale without abandoning engineering discipline. Hiring and mentoring engineers across continents. The Saga pattern. Specs over chat history. Building systems that empower others to innovate safely.
+A versioned backlog schema and loop protocol for dependency-ordered agent work. One item per iteration, verification before merge, and a human gate on anything irreversible, billable, or outward-facing.
 
-Also: being a dad, mowing the lawn, and learning to laugh when a monitoring deployment lights up a support queue like a Christmas tree.
+### [SpecSelf Starter](https://github.com/CaskeyCoding/specself-starter)
 
-### Tech
+A local-first, plain-Markdown template for principles, goals, projects, and reviews, written as specs an AI agent can reason over. The agent surfaces and challenges; the person decides and authors.
 
-`python` `java` `typescript` `aws` `cdk` `smithy` `bedrock` `dynamodb` `lambda` `genai`
+### [SpecSelf Local](https://github.com/CaskeyCoding/specself-local)
 
-### Let's connect
+A local Python CLI and read-only MCP server for explicitly selected SpecSelf Markdown. Zero runtime dependencies and no network transport.
 
-- **Site:** [caskeycoding.com](https://caskeycoding.com)
-- **Also:** [ericcaskey.com](https://ericcaskey.com) · [specself.ai](https://specself.ai)
-- **LinkedIn:** [linkedin.com/in/ericrcaskey](https://www.linkedin.com/in/ericrcaskey)
-- **Email:** eric@caskeycoding.com
+## How I work
+
+- Write the spec and the acceptance checks before the code.
+- Give an agent the context for the task in front of it, not the whole documentation tree.
+- Put evaluation, review, and release checks in the delivery path, where skipping them fails the build.
+- Keep a human on consequential decisions and irreversible actions.
+
+## Experience behind the work
+
+I am a Senior Software Engineer at Amazon, where I architect a multi-region workflow orchestration platform. Its guardrails have run **500,000 cumulative safety checks**.
+
+Earlier at Amazon, I built a monitoring lifecycle platform that brought **3 million monitors** under standardized management. Before that, I spent nine years at Prudential Financial building remote-access, self-service, and cloud reliability systems.
+
+That history shapes the open-source work: deterministic checks before action, explicit ownership, and systems that decline or roll back instead of failing silently.
+
+## Writing
+
+- Case studies and lessons: [caskeycoding.com](https://caskeycoding.com)
+- Career history and selected work: [ericcaskey.com](https://ericcaskey.com)
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/ericrcaskey)
+- [Email](mailto:eric@caskeycoding.com)
